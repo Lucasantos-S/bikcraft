@@ -1,0 +1,69 @@
+
+.interna_sobre{
+    background: url(../img/bg-sobre.jpg)no-repeat center;
+    background-size: cover;
+    
+}
+.missao_sobre{
+   padding-top: 60px;
+}
+
+.missao_sobre p {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 1em;
+    padding-right: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.missao_sobre ul li{
+    font-size: 18px;
+    line-height: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.produtos_listas-img.missao_produto{
+   padding: 70px 40px;
+   
+}
+.missao_produto{
+    padding: 20px 0;
+}
+
+.produto_info {
+    background: #000;
+    color: white;
+    height: 280px;
+    
+    margin-top: 20px;
+
+}
+
+
+.produto_info p{
+    padding: 30px;
+}
+.produto_info ul {
+    padding-top: 58px;
+    width: 100%;
+    display: block;
+   
+}
+
+
+.produto_info ul li{
+    background: yellowgreen;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: black;
+    float: left;
+    width: 228px;
+    height: 49px;
+    padding-top: 15px;
+    margin-top: 2px;
+    margin-right:2px;
+    
+
+}
