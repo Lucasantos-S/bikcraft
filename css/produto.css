@@ -1,26 +1,30 @@
 
-.interna_sobre{
-    background: url(../img/bg-sobre.jpg)no-repeat center;
+.interna_produto{
+    background: url(../img/bg-produtos.jpg)no-repeat center;
     background-size: cover;
     
 }
-.missao_sobre{
-   padding-top: 60px;
+
+.produtos h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: .1em;
+    font-weight: bold;
+    position: relative;
+    top: -190px;
+    text-align: center;
+    margin-bottom: -100px;
 }
 
-.missao_sobre p {
-    font-size: 18px;
-    line-height: 25px;
-    margin-bottom: 1em;
-    padding-right: 60px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.missao_sobre ul li{
-    font-size: 18px;
-    line-height: 30px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
+.produtos h2:before, .produtos h2:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #fff;
+    margin: 14px auto 10px auto;
+    }
 
 
 .produtos_listas-img.missao_produto{
@@ -45,7 +49,7 @@
     padding: 30px;
 }
 .produto_info ul {
-    padding-top: 58px;
+    padding-top: 60px;
     width: 100%;
     display: block;
    
@@ -59,11 +63,17 @@
     text-transform: uppercase;
     color: black;
     float: left;
-    width: 228px;
+    width: 229px;
     height: 49px;
     padding-top: 15px;
-    margin-top: 2px;
-    margin-right:2px;
+    
+    
     
 
 }
+.produto_info ul li:nth-child(odd){
+    margin-right: 2px;
+    margin-bottom: 2px;
+}
+
+
