@@ -100,8 +100,8 @@ background:#fec63e;
     
     
 }
-.dados_email{
-    margin-bottom: 40px;
+.orcamento_dados span:nth-of-type(even){
+    margin-bottom: 30px;
 }
 
 .orcamento_dados ul li {
