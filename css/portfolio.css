@@ -1,0 +1,41 @@
+
+.interna_produto{
+    background: url(../img/bg-portfolio.jpg)no-repeat center;
+    background-size: cover;
+    
+}
+
+.texto_barbara{
+    padding: 30px;
+    text-align: center;
+    margin: 0 450px;
+}
+.texto_barbara h2{
+
+
+}
+.quote_cliente{
+    margin: 0 auto;
+    padding: 60px 0;
+    max-width: 450px;
+    text-align: center;
+}
+.quote_cliente p {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 25px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.quote_cliente cite {
+    font-size: 18px;
+    font-weight: bold;
+    
+    font-style: normal;
+    
+
+}
+
+
