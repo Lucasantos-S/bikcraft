@@ -17,7 +17,7 @@
     position: relative;
     top: -190px;
     text-align: center;
-    margin-bottom: -100px;
+    margin-bottom: -56px;
 }
 
 .produto_item h2:before, .produto_item h2:after{
@@ -26,14 +26,19 @@
     width: 60px;
     height: 3px;
     background: #fff;
-    margin: 14px auto 10px auto;
+    margin: 6px auto 8px auto;
     }
 
 
-.produtos_listas-img.missao_produto{
-   padding: 70px 40px;
-   
+.produto-icone{
+    background: #000;
+    padding: 70px 0;
 }
+.produto-icone img{
+    margin: 0 auto;
+}
+
+
 .missao_produto{
     padding: 20px 0 0;
 }
@@ -41,42 +46,38 @@
 .produto_info {
     background: #000;
     color: white;
-    height: 280px;
-    
     margin-top: 20px;
 
 }
 
 
 .produto_info p{
-    padding: 30px;
-}
-.produto_info ul {
-    padding-top: 60px;
-    width: 100%;
-    display: block;
-   
+    font-size: 18px;
+    line-height: 25px;
+    height: 180px;
+    padding: 30px 40px;
+
 }
 
 
 .produto_info ul li{
-    background: yellowgreen;
+    background: #fec63e;
     text-align: center;
     font-size: 18px;
+    font-weight: bold;
     text-transform: uppercase;
     color: black;
     float: left;
     width: 229px;
     height: 49px;
-    padding-top: 15px;
-    
-    
-    
+    padding-top: 16px; 
 
+}
+.produto_info ul li:nth-child(1), .produto_info ul li:nth-child(2){
+    margin-bottom: 2px;
 }
 .produto_info ul li:nth-child(odd){
     margin-right: 2px;
-    margin-bottom: 2px;
 }
 
 
