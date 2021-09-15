@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/portfolio.css">
     <link rel="stylesheet" href="css/responsivo.css">
+    <script>document.documentElement.classList.add("js");</script>
     
     <title>Bikcraft-portfólio</title>
 </head>
@@ -33,13 +34,13 @@
 
     <section class="introducao-interna interna_produto">
         <div class="container">
-            <h1>Portfólio</h1>
-            <p>Conheça os projetos que amamos mostrar</p>  
+            <h1 data-anime="400" class="fadeInDown">Portfólio</h1>
+            <p data-anime="800" class="fadeInDown">Conheça os projetos que amamos mostrar</p>  
         </div>
     </section>
 
-        <section class="container" >
-            <blockquote class="quote_cliente">
+        <section class="container">
+            <blockquote data-anime="1200" class="quote_cliente fadeInDown">
                 <p>
                     " No mundo atual a continua expansão de nossa atividades cumpri um papel essencial na formulação da gestão inovadora da qual fazemos parte. "
                 </p>
@@ -48,13 +49,18 @@
         </section>
 
         <section class="portfolio">
-            <div class="container">
+            <div class="container" data-slide="portfolio">
                 <ul class="portfolio_lista">
                     <li class="grid-8"><img src="img/portfolio/retro.jpg" alt="Bicicleta retrô"></li>
                     <li class="grid-8"><img src="img/portfolio/passeio.jpg" alt="Bicicleta passeio"></li>
                     <li class="grid-16"><img src="img/portfolio/esporte.jpg" alt="Bicicleta esporte"></li>
                 </ul>
-                
+                <ul class="portfolio_lista">
+                    <li class="grid-8"><img src="img/portfolio/passeio.jpg" alt="Bicicleta passeio"></li>
+                    <li class="grid-8"><img src="img/portfolio/retro.jpg" alt="Bicicleta retrô"></li>
+                    <li class="grid-16"><img src="img/portfolio/esporte.jpg" alt="Bicicleta esporte"></li>
+                </ul>
+               
             </div>
     
         </section>
@@ -101,8 +107,11 @@
 
         </div>
     </footer >
+    <script src="js/simple-anime.js"></script>
+    <script src="js/simple-slide.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
-<script src="css/style.css"></script>
+
     
 </html>
