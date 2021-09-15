@@ -441,6 +441,7 @@ margin-top: 20px;
     text-indent: -99px;
     overflow: hidden;
     background: #585555;
+    cursor: pointer;
     
     
 }
@@ -453,7 +454,10 @@ margin-top: 20px;
     border-radius: 7px ;
     transition: 0.5s;
     padding-top: 1px;
+    
 }
+
+/*Animacao*/
 .js [data-anime]{
     opacity: 0;
    
