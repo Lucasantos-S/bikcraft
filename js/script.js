@@ -22,10 +22,13 @@ if (window.SimpleAnime){
     new SimpleAnime();
 }
 
+    
+
+
 const funcionamento = document.querySelector('[data-semana]')
 const diasSemana = funcionamento.dataset.semana.split(',').map(Number)
 const horaSemana = funcionamento.dataset.hora.split(',').map(Number)
-
+if(funcionamento&&diasSemana && horaSemana) {
 const horaAhora= new Date().getHours()
 const diaAgora = new Date().getDay()
 
@@ -34,4 +37,6 @@ const horaAberta = horaAhora >= horaSemana[0] && horaAhora < horaSemana[1]
 
 if(diaAberto && horaAberta) {
     funcionamento.classList.add('aberto')
+}
+
 }
